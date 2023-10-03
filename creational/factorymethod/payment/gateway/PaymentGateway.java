@@ -1,8 +1,6 @@
 package creational.factorymethod.payment.gateway;
 
 import creational.factorymethod.payment.PaymentType;
-import creational.factorymethod.payment.ApplePayment;
-import creational.factorymethod.payment.GooglePayment;
 import creational.factorymethod.payment.Payment;
 
 public abstract class PaymentGateway {
