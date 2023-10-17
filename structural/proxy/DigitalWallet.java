@@ -1,4 +1,4 @@
-package behavior.proxy;
+package structural.proxy;
 
 public class DigitalWallet implements Wallet{
 

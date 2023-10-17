@@ -1,4 +1,4 @@
-package behavior.proxy;
+package structural.proxy;
 
 public interface Wallet {
 

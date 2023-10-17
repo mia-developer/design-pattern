@@ -1,4 +1,4 @@
-package behavior.proxy;
+package structural.proxy;
 
 public class WalletProxy implements Wallet{
 	private final String userName;
