@@ -4,7 +4,7 @@ public class PaymentProcessor implements PaymentVisitor {
 
 	@Override
 	public void visitCard(final Card card) {
-		System.out.println("visit Card");
+		System.out.println("visit CardService");
 	}
 
 	@Override
