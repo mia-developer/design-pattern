@@ -5,11 +5,11 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		List<Payment> payments = List.of(new Card(), new Cash());
-		PaymentVisitor paymentVisitor = new PaymentProcessor();
+		List<Transaction> transactions = List.of(new Payment(), new Settlement());
+		ExcelExportVisitor visitor = new ExcelExportProcessor();
 
-		for(Payment payment : payments){
-			payment.accept(paymentVisitor);
+		for(Transaction transaction : transactions){
+			transaction.accept(visitor);
 		}
 	}
 }

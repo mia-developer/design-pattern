@@ -1,6 +1,6 @@
 package behavior.visitor;
 
-public class Payment implements Transaction {
+public class Settlement implements Transaction {
 
 	@Override
 	public void accept(final ExcelExportVisitor visitor) {
