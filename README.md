@@ -20,6 +20,7 @@
 * Chain Of Responsibility
 * Command
 * Iterator
+* Mediator
 * Memento
 * Observer
 * State
